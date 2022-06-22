@@ -44,19 +44,20 @@ public class BinaryOp {
 		data = 100;
 		//참고 논리연산 and 는 참 and 참일떄만 결과가 참, 논리연산 or은 거짓 or 거짓 일떄만 결과가 거짓
 		//	비트연산 and는  1&1 일떄만 결과가 1, 비트연산 or는  1or1 일떄만 결과가 0
-		System.out.println("4. &는 bit and 연산");
+		System.out.println("6. &는 bit and 연산");
 		System.out.println(String.format("%32s %d", Integer.toBinaryString(data), data));
 		System.out.println(String.format("%32s %d", Integer.toBinaryString(n), n));
 		System.out.println("----------------------------------------------------");
 		System.out.println(String.format("%32s %d", Integer.toBinaryString(data&n), data&n));
 		
-		System.out.println("4. |는 bit or 연산");
+		System.out.println("7. |는 bit or 연산");
 		System.out.println(String.format("%32s %d", Integer.toBinaryString(data), data));
 		System.out.println(String.format("%32s %d", Integer.toBinaryString(n), n));
 		System.out.println("----------------------------------------------------");
 		System.out.println(String.format("%32s %d", Integer.toBinaryString(data|n), data|n));
 
 
+	
 		
 		
 		
